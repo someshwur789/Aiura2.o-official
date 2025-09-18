@@ -1,45 +1,52 @@
+import registration from "@/assets/registration.jpg";
+import inauguration from "@/assets/timeline-workshop.jpg";
+import tech from "@/assets/event-coding.jpg";
+import lunch from "@/assets/lunch.jpg";
+import nontech from "@/assets/event-ai.jpg";
+import price from "@/assets/price.jpg";
+
 const Timeline = () => {
   const timelineEvents = [
     {
       title: "REGISTRATION",
       description: "Welcome participants and collect registration details.",
       timing: "9:00 AM - 10:00 AM",
-      image: "/src/assets/registration.jpg",
+      image: registration ,
       side: "left"
     },
     {
       title: "INAUGURATION",
       description: "Official opening ceremony with welcome address.",
       timing: "10:00 AM - 11:00 AM",
-      image: "/src/assets/timeline-workshop.jpg",
+      image: inauguration,
       side: "right"
     },
     {
       title: "TECH & NON-TECH EVENTS BEGIN",
       description: "Technical and non-technical competitions commence.",
       timing: "11:00 AM - 12:30 PM",
-      image: "/src/assets/event-coding.jpg",
+      image: tech,
       side: "left"
     },
     {
       title: "LUNCH",
       description: "Break for refreshments and networking.",
       timing: "12:30 PM - 1:30 PM",
-      image: "/src/assets/lunch.jpg",
+      image: "lunch,
       side: "right"
     },
     {
       title: "EVENTS CONTINUE",
       description: "Afternoon session of competitions and presentations.",
       timing: "1:30 PM - 3:00 PM",
-      image: "/src/assets/event-ai.jpg",
+      image: nontech,
       side: "left"
     },
     {
       title: "PRIZE DISTRIBUTION",
       description: "Award ceremony and closing remarks.",
       timing: "3:00 PM - 4:00 PM",
-      image: "/src/assets/price.jpg",
+      image: price,
       side: "right"
     }
   ];
