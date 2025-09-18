@@ -32,7 +32,7 @@ const Timeline = () => {
       title: "LUNCH",
       description: "Break for refreshments and networking.",
       timing: "12:30 PM - 1:30 PM",
-      image: "lunch,
+      image: lunch,
       side: "right"
     },
     {
