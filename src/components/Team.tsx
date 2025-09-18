@@ -47,7 +47,7 @@ const Team = () => {
       image: HariImg
     },
     {
-      name: "Nivetha S", 
+      name: "Nivetha N", 
       role: "Poster",
       image: NivethaImg
     }
