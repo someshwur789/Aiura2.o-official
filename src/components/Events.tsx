@@ -2,6 +2,9 @@ import { useNavigate } from "react-router-dom";
 import { Card, CardContent } from "@/components/ui/card";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
+import coding from "@/assets/event-coding.jpg";
+import noncoding from "@/assets/event-creative.jpg";
+import surprise from "@/assets/event-surprise.jpg";
 
 const Events = () => {
   const navigate = useNavigate();
@@ -23,7 +26,7 @@ const Events = () => {
       type: "technical",
       title: "Technical",
       description: "A hub of innovation and creativity together bright minds to compete, collaborate, and create. A stage for innovators to explore, compete, and create through technology driven challenges & ideas.",
-      image: "/src/assets/event-coding.jpg",
+      image: coding,
       borderClass: "border-primary/30",
       gradientClass: "from-primary/20 to-secondary/20",
       titleClass: "text-primary",
@@ -35,7 +38,7 @@ const Events = () => {
       type: "non-technical", 
       title: "Non-Technical",
       description: "A celebration of creativity and talent, this non-technical fest offers a space to entertain, engage, and express. it brings students together to unwind, bond, and showcase their hidden skills beyond academics.",
-      image: "/src/assets/event-creative.jpg",
+      image: noncoding,
       borderClass: "border-secondary/30",
       gradientClass: "from-secondary/20 to-primary/20",
       titleClass: "text-secondary",
@@ -47,7 +50,7 @@ const Events = () => {
       type: "surprise",
       title: "Surprise Event",
       description: "Get ready for something extraordinary! A special surprise event that will be revealed soon. Stay tuned for an unforgettable experience that combines innovation and excitement.🤫🎉",
-      image: "/src/assets/event-surprise.jpg",
+      image: surprise,
       borderClass: "border-accent/30",
       gradientClass: "from-accent/20 to-primary/20",
       titleClass: "text-accent",
