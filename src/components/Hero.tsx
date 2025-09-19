@@ -40,7 +40,7 @@ const Hero = () => {
         <Button
           size="lg"
           className="bg-primary hover:bg-primary/80 text-primary-foreground px-8 py-3 glow-border animate-pulse-glow"
-          onClick={() => window.location.href = "https://registration-theta-taupe.vercel.app/"}
+          onClick={() => window.location.href = "https://regiflow-connect.vercel.app/"}
         >
           Register Now
         </Button>
