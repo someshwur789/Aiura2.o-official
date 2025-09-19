@@ -500,7 +500,7 @@ const EventRules = () => {
            {/* Register Button */}
            <div className="text-center">
             <button
-               onClick={() => window.open("https://registration-theta-taupe.vercel.app/", "_blank")}
+               onClick={() => window.open("https://regiflow-connect.vercel.app/", "_blank")}
                className="bg-primary text-white px-12 py-4 rounded-full font-bold text-lg hover:scale-105 transition-transform duration-300"
              >
                Register for Event
