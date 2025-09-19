@@ -8,14 +8,12 @@ import Technical from "./pages/Technical";
 import NonTechnical from "./pages/NonTechnical";
 import EventRules from "./pages/EventRules";
 import NotFound from "./pages/NotFound";
-import SplineScene from "./components/SplineScene";
 import AudioPlayer from "./components/AudioPlayer"; // ✅ added
 
 const queryClient = new QueryClient();
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
-    <SplineScene />
     <TooltipProvider>
       <Toaster />
       <Sonner />
