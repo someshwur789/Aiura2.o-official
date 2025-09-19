@@ -5,6 +5,7 @@ import RajkumarImg from "@/assets/raj.jpg";
 import DharshiniImg from "@/assets/dachu.jpg";
 import SomeshwurImg from "@/assets/somesh2.png";
 import HariImg from "@/assets/hari.jpg";
+import adi from "@/assets/adi.jpg";
 import NivethaImg from "@/assets/nive1.png";
 
 const Team = () => {
@@ -47,7 +48,12 @@ const Team = () => {
       image: HariImg
     },
     {
-      name: "Nivetha N", 
+      name: "Aditya Kalidas", 
+      role: "Web Team Co-Lead",
+      image: adi
+    },
+    {
+      name: "Nivetha N",
       role: "Poster",
       image: NivethaImg
     }
