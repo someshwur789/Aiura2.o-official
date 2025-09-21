@@ -190,13 +190,9 @@ const EventRules = () => {
       duration: "11:00 AM - 3:00 PM",
       teamSize: "Varies by Game",
       generalRules: [
-        "No. of Rounds: 3",
         "Match Type: Any (Duo, Squad)",
-        "Mode: Battle Royal",
-        "Maps:",
-        "1st Round - NexTera",
-        "2nd Round - Kalahari",
-        "3rd Round - Bermuda"
+        "Mode: Clash Squad (Custom)",
+        "Maps: Bermuda"
       ],
       rounds: [
         {
@@ -212,14 +208,21 @@ const EventRules = () => {
         {
           title: "RULES",
           details: [
-            "1. Don't use hacks or glitches.",
-            "2. No players are allowed to spectate.",
-            "3. Players must be present at the Event Room; no home play allowed.",
-            "4. Don't team up with your enemies.",
-            "5. Every Free Fire account must be at least level 20 to participate.",
-            "6. Every team is responsible for their internet connection.",
-            "7. A maximum of 5 minutes waiting time (from when the room is created) is allowed per team.",
-            "8. Players should follow the instructions given by the instructor at the event bay."
+            "1. Elimination Match",
+            "2. No Grenades allowed",
+            "3. Don't use hacks, VPN or glitches.",
+            "4. PC Players are not allowed",
+            "5. Gun Property will remain off",
+            "6. No Double Vector",
+            "7. Every Team Should join the lobby with their registered players only",
+            "8. Players are responsible for their requirements.",
+            "9. No players are allowed to spectate.",
+            "10. Players must be present at the Event Room; no home play allowed.",
+            "11. Don't team up with your enemies.",
+            "12. Every Free Fire account must be at least level 20 to participate.",
+            "13. Every team is responsible for their internet connection.",
+            "14. A maximum of 5 minutes waiting time (from when the room is created) is allowed per team.",
+            "15. Players should follow the instructions given by the instructor at the event bay."
           ]
         }
       ],
@@ -500,7 +503,7 @@ const EventRules = () => {
            {/* Register Button */}
            <div className="text-center">
             <button
-               onClick={() => window.open("https://regiflow-connect.vercel.app/", "_blank")}
+               onClick={() => window.open("https://registration-theta-taupe.vercel.app/", "_blank")}
                className="bg-primary text-white px-12 py-4 rounded-full font-bold text-lg hover:scale-105 transition-transform duration-300"
              >
                Register for Event
