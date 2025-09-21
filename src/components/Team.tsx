@@ -67,7 +67,7 @@ const Team = () => {
             TEAM
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Meet the dedicated team behind AIURA'2.o who make this symposium website
+            Meet the dedicated team behind AIURA'2.o who make this symposium
           </p>
         </div>
 
